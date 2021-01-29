@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T12:07:30.922Z" agent="5.0 (X11)" version="14.2.7" etag="hI57wOOr77Ss9UhA1xjU" type="github"><diagram id="y9PfuHGtkb0Xi2rJtWgL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-29T12:26:31.939Z" agent="5.0 (X11)" etag="3TMMY_YztVxqQudqHjVo" version="14.2.7" type="github">
+  <diagram id="y9PfuHGtkb0Xi2rJtWgL" name="Page-1">
+    <mxGraphModel dx="1350" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mpRg7uGL-hKuVafOZky2-2" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在 Flash 芯片写入扇区擦出指令之前,需要先写入写使能(WREN)指令,&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;将芯片设置为写使能锁存(WEL)状态;随后要拉低片选信号,写入扇区擦&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;除指令、扇区地址、页地址和字节地址,在指令、地址写入过程中,片选&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;信号始终保持低电平,待指令、地址被芯片锁存后,将片选信号拉高;扇区&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;擦除指令、地址被锁存并执行后,需要等待一个完整的扇区擦除周期(t SE )&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-6" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-3" target="mpRg7uGL-hKuVafOZky2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-21" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-3" target="mpRg7uGL-hKuVafOZky2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-3" value="&lt;div&gt;S2_IDLE&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-7" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-4" target="mpRg7uGL-hKuVafOZky2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-4" value="C_SE" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-9" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-5" target="mpRg7uGL-hKuVafOZky2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-5" value="SR_ADDR" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-11" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-8" target="mpRg7uGL-hKuVafOZky2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-8" value="PE_ADDR" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-13" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-10" target="mpRg7uGL-hKuVafOZky2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-26" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-10" target="mpRg7uGL-hKuVafOZky2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-10" value="BE_ADDR" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="150" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-18" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-12" target="mpRg7uGL-hKuVafOZky2-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-12" value="T_SE" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="150" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-15" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在写入页写指令之前,需要先写入写使能(WREN)指令,将芯片设置为写使能锁存(WEL)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;状态;随后要拉低片选信号,写入页写指令、扇区地址、页地址、字节地址,紧跟地址写入要&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;存储在 Flash 的字节数据,在指令、地址以及数据写入过程中,片选信号始终保持低电平,待&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;指令、地址、数据被芯片锁存后,将片选信号拉高;片选信号拉高后,等待一个完整的页写周&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;期(t PP ),才能完成 Flash 芯片的页写操作。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="310" y="780" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-32" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-16" target="mpRg7uGL-hKuVafOZky2-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="700" />
+              <mxPoint x="580" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-16" value="END" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="294" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-17" value="state==SE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="175" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-24" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-19" target="mpRg7uGL-hKuVafOZky2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-19" value="C_PP" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="414" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-22" value="state==PP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="439" y="180" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-30" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-25" target="mpRg7uGL-hKuVafOZky2-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-25" value="SD_DATA" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="370" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-27" value="state==PP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="290" y="490" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-28" value="state==SE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-31" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="mpRg7uGL-hKuVafOZky2-29" target="mpRg7uGL-hKuVafOZky2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mpRg7uGL-hKuVafOZky2-29" value="T_PP" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="370" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
