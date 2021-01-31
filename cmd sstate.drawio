@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T08:16:25.794Z" agent="5.0 (X11)" etag="quBzetFPpDIcc795_R1_" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T08:23:15.282Z" agent="5.0 (X11)" etag="HM_qq68wNc19kt64CqIb" version="14.2.9" type="github">
   <diagram id="y9PfuHGtkb0Xi2rJtWgL" name="Page-1">
     <mxGraphModel dx="1350" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
       <root>
@@ -175,6 +175,12 @@
         </mxCell>
         <mxCell id="nN14oj0gZmcJKw9xQ7Gt-20" value="bit_cnt ==8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="500" y="670" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-22" value="&lt;div align=&quot;left&quot;&gt;T_SLCH:cs拉低，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;如此跳到下一周期，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;这样既大于5ns&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-23" value="&lt;div&gt;跳到T_SHSL后cs在拉高，这样T_SHCH=20ns&amp;gt;5ns,&lt;/div&gt;&lt;div&gt;同时T_SHSL延时100ns，再结束&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="327" y="900" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
