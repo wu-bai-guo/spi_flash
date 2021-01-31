@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T08:23:35.277Z" agent="5.0 (X11)" etag="dQTfqsmeC0yIorfWxM9W" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T08:26:13.364Z" agent="5.0 (X11)" etag="aU52rGbSlKp1e2sSfr4T" version="14.2.9" type="github">
   <diagram id="y9PfuHGtkb0Xi2rJtWgL" name="Page-1">
     <mxGraphModel dx="1350" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
       <root>
@@ -181,6 +181,21 @@
         </mxCell>
         <mxCell id="nN14oj0gZmcJKw9xQ7Gt-23" value="&lt;div&gt;跳到T_SHSL后cs在拉高，这样T_SHCH=20ns&amp;gt;5ns,&lt;/div&gt;&lt;div&gt;同时T_SHSL延时100ns后，再结束&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="327" y="900" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-24" value="cnt_shsl==5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="198" y="930" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-25" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="nN14oj0gZmcJKw9xQ7Gt-15" target="nN14oj0gZmcJKw9xQ7Gt-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="840" />
+              <mxPoint x="160" y="840" />
+              <mxPoint x="160" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-26" value="cnt_shsl!=5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
