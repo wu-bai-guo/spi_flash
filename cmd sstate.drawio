@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T01:05:14.701Z" agent="5.0 (X11)" etag="RleXX_BSBuP5EFa_1T3O" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T01:44:47.256Z" agent="5.0 (X11)" etag="re74DYeql_GkEJbpRHVf" version="14.2.9" type="github">
   <diagram id="y9PfuHGtkb0Xi2rJtWgL" name="Page-1">
     <mxGraphModel dx="1350" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
       <root>
@@ -175,8 +175,8 @@
         <mxCell id="nN14oj0gZmcJKw9xQ7Gt-22" value="&lt;div align=&quot;left&quot;&gt;T_SLCH:cs拉低，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;如此跳到下一周期，&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;这样既大于5ns&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="30" y="130" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-23" value="&lt;div&gt;跳到T_SHSL后cs在拉高，这样T_SHCH=20ns&amp;gt;5ns,&lt;/div&gt;&lt;div&gt;同时T_SHSL延时100ns后，再结束&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" parent="1" vertex="1">
-          <mxGeometry x="327" y="900" width="290" height="30" as="geometry" />
+        <mxCell id="nN14oj0gZmcJKw9xQ7Gt-23" value="&lt;div&gt;跳到T_SHSL后cs在拉高，这样T_SHCH=20ns&amp;gt;5ns,&lt;/div&gt;&lt;div&gt;同时T_SHSL延时100ns后，再结束&lt;/div&gt;&lt;div&gt;当state==RDSR，在END状态判断wip和wel决定state仍然处于RDSR或者WERN或者SE&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="327" y="890" width="480" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nN14oj0gZmcJKw9xQ7Gt-24" value="cnt_shsl==5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="198" y="930" width="80" height="20" as="geometry" />
@@ -193,7 +193,7 @@
         <mxCell id="nN14oj0gZmcJKw9xQ7Gt-26" value="cnt_shsl!=5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="110" y="840" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="imQeJ4v81Es_b5_ZdpWT-3" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="imQeJ4v81Es_b5_ZdpWT-1" target="mpRg7uGL-hKuVafOZky2-16">
+        <mxCell id="imQeJ4v81Es_b5_ZdpWT-6" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#A8201A;fillColor=#FAE5C7;fontColor=#143642;" edge="1" parent="1" source="imQeJ4v81Es_b5_ZdpWT-1" target="mpRg7uGL-hKuVafOZky2-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="700" y="795" />
